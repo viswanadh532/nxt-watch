@@ -1,0 +1,5 @@
+export const loginApiUrl = '/api/login'
+export const homeVideosApiUrl = '/api/videos/all'
+export const trendingVideosApiUrl = '/api/videos/trending'
+export const gamingVideosApiUrl = '/api/videos/gaming'
+export const videoItemDetailsApiUrl = '/api/videos'
