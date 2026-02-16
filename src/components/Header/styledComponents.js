@@ -46,8 +46,6 @@ export const LogoutBtn = styled.button`
   border-radius: 4px;
   cursor: pointer;
 `
-
-/* Popup */
 export const PopupWrap = styled.div`
   padding: 18px;
   background-color: ${props => (props.$dark ? '#0f0f0f' : '#ffffff')};

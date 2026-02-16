@@ -69,7 +69,7 @@ const VideoItemDetails = () => {
   }, [id])
 
   useEffect(() => {
-    getVideoDetails()
+   
   }, [getVideoDetails])
 
   const onClickLike = () => {
@@ -126,7 +126,7 @@ const VideoItemDetails = () => {
 
     return (
       <div style={{padding: '20px', width: '100%'}}>
-        {/* VIDEO PLAYER */}
+  
         <div
           style={{
             width: '100%',
@@ -148,7 +148,7 @@ const VideoItemDetails = () => {
             style={{position: 'absolute', top: 0, left: 0}}
           />
 
-          {/* Thumbnail */}
+      
           {!isPlaying && !thumbError && (
             <img
               src={videoDetails.thumbnailUrl}
@@ -165,7 +165,7 @@ const VideoItemDetails = () => {
             />
           )}
 
-          {/* Center Play / Pause */}
+        
           <button
             type="button"
             onClick={() => {
@@ -192,7 +192,7 @@ const VideoItemDetails = () => {
           </button>
         </div>
 
-        {/* DETAILS */}
+    
         <h1 style={{color: isDarkTheme ? '#ffffff' : '#000000'}}>
           {videoDetails.title}
         </h1>
@@ -201,7 +201,7 @@ const VideoItemDetails = () => {
           {videoDetails.viewCount} views • {timeAgo}
         </p>
 
-        {/* LIKE / DISLIKE / SAVE */}
+    
         <div style={{display: 'flex', gap: '12px', margin: '12px 0'}}>
           <button
             type="button"
@@ -242,7 +242,7 @@ const VideoItemDetails = () => {
 
         <hr />
 
-        {/* CHANNEL */}
+  
         <div style={{display: 'flex', gap: '12px', marginTop: '12px'}}>
           <img
             src={videoDetails.channel.profileImageUrl}

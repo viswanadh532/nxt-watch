@@ -11,8 +11,6 @@ export const ContentWrap = styled.div`
   max-width: 1100px;
   margin: 0 auto;
 `
-
-/* Banner */
 export const Banner = styled.div`
   background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
   background-size: cover;
@@ -55,7 +53,7 @@ export const CloseBtn = styled.button`
   font-size: 18px;
 `
 
-/* Search */
+
 export const SearchBarWrap = styled.div`
   display: flex;
   max-width: 500px;
@@ -76,14 +74,14 @@ export const SearchButton = styled.button`
   cursor: pointer;
 `
 
-/* Loader */
+
 export const LoaderContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 40px;
 `
 
-/* Failure */
+
 export const FailureWrap = styled.div`
   text-align: center;
   margin-top: 40px;
@@ -110,7 +108,6 @@ export const RetryBtn = styled.button`
   margin-top: 12px;
 `
 
-/* No Videos */
 export const NoVideosWrap = styled.div`
   text-align: center;
   margin-top: 40px;
@@ -127,7 +124,7 @@ export const NoVideosImg = styled.img`
   width: 260px;
 `
 
-/* Videos Grid */
+
 export const VideosUl = styled.ul`
   list-style: none;
   padding: 0;
