@@ -1,5 +1,9 @@
-export const loginApiUrl = '/api/login'
-export const homeVideosApiUrl = '/api/videos/all'
-export const trendingVideosApiUrl = '/api/videos/trending'
-export const gamingVideosApiUrl = '/api/videos/gaming'
-export const videoItemDetailsApiUrl = '/api/videos'
+export const loginApiUrl = 'https://apis.ccbp.in/login'
+
+export const homeVideosApiUrl = 'https://apis.ccbp.in/videos/all?search='
+
+export const trendingVideosApiUrl = 'https://apis.ccbp.in/videos/trending'
+
+export const gamingVideosApiUrl = 'https://apis.ccbp.in/videos/gaming'
+
+export const videoItemDetailsApiUrl = 'https://apis.ccbp.in/videos'
